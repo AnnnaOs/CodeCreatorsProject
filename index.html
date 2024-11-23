@@ -10,7 +10,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
     <script type="module" crossorigin src="/codeCreators-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/codeCreators-project/assets/index-CfR8EC-0.css">
+    <link rel="modulepreload" crossorigin href="/codeCreators-project/assets/vendor-CHlyvQHw.js">
+    <link rel="stylesheet" crossorigin href="/codeCreators-project/assets/vendor-Be9b3THL.css">
+    <link rel="stylesheet" crossorigin href="/codeCreators-project/assets/index-LOAc5FZu.css">
   </head>
   <body>
     <header class="header"></header>
@@ -114,7 +116,27 @@
 
       <section class="faq"></section>
 
-      <section class="reviews"></section>
+      <section id="reviews" class="reviews container">
+    <div class="container">
+      <h2 class="reviews-title">reviews</h2>
+      <div class="swiper">
+        <ul class="reviews-list swiper-wrapper"></ul>
+        <!-- navigation buttons -->
+        <div class="swiper-buttons">
+          <div class="swiper-button-prev" tabindex="0">
+            <svg width="24" height="24">
+              <use href="/img/icons/arrow-reviews-left"></use>
+            </svg>
+          </div>
+          <div class="swiper-button-next" tabindex="0">
+            <svg width="24" height="24" class="icon-review-arrow-right">
+                <use href="/img/icons/arrow-reviews-right"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
       <section class="work-together"></section>
 
