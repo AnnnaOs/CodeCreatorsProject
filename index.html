@@ -12,7 +12,7 @@
     <script type="module" crossorigin src="/codeCreators-project/index.js"></script>
     <link rel="modulepreload" crossorigin href="/codeCreators-project/assets/vendor-CHlyvQHw.js">
     <link rel="stylesheet" crossorigin href="/codeCreators-project/assets/vendor-Be9b3THL.css">
-    <link rel="stylesheet" crossorigin href="/codeCreators-project/assets/index-BhtCJVEX.css">
+    <link rel="stylesheet" crossorigin href="/codeCreators-project/assets/index-Br7XstAS.css">
   </head>
   <body>
     <header class="header"></header>
@@ -21,7 +21,7 @@
     <main>
       <section class="hero"></section>
 
-      <section class="about-me">
+      <!-- <section class="about-me">
   <div class="container">
     <h2 class="about-title">About <span>me</span></h2>
     <img class="about-img img" />
@@ -63,7 +63,7 @@
       <li class="about-item">Blender (enjoy)</li>
     </ul>
   </div>
-</section>
+</section> -->
 
       <section class="tech-skills">
   <h2 class="visually-hidden">Tech-skills</h2>
@@ -168,7 +168,126 @@
    </div>
 </section>
 
-      <section class="faq"></section>
+      <section class="faq container">
+  <h2 class="faq-title">
+    Frequently asked <span class="highlight">question</span>
+  </h2>
+
+  <img
+    class="faq-img"
+    srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAaYCGAMBIgACEQEDEQH/xAAzAAEAAgMBAQAAAAAAAAAAAAAABAcDBQYBAgEBAAMBAQEAAAAAAAAAAAAAAAECBAUDBv/aAAwDAQACEAMQAAAAv8AAAAAAAAAAAAACNI4WMvUy6XsGOd1wt2wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHD9xgjNTnfb6THPyi3ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPn1HoSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA89HKTJeaOfOE9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADDznR85GHfyosqdYLgAAAAAAAAAAAAAAAAAD4R9hIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAELlux1UYdjJx5J2AsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxY6+jFYuWr7CVnCd4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEOqbg1FeXV1sRtupkFuuAAAAAAB8xdfW9eVbmeuLEnRkE7QAAAAAAAAAAAAAAAADyGrNa/IrMD0AAAAAAAAAAA0NZXPArx+FsqLNnUE7gAAAAAAAAAAAAAAAAIVZWTT9PnfdzxW/rwLilwZ3r96D0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAh1nbESOdTm5sfJXAlF+8CwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8PWvwPHbtbsF/oLgAAAADEj4zcT0cY9qJ2gAAAAAAAAAAAAAAAAAAAAAI0mIpWOhnc75fAdRadN3Dbu7MX+lAAAAAeejXysxQFwAAAAAAAAAAAAAAAAAAAAAEeR4itNLb/AMV4daWPmkTtCegAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB862Zx8YuzRE6tgFwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGERlCf//EAC8QAAIBBAECBAQFBQAAAAAAAAECAwAEBRESUGAVMTNSEyEyQBAUIjCAQVFhcZD/2gAIAQEAAT8A+9lulj8zQyUW/qFRXCya0ewH+k1nbt4t6NJlJjJrkfOsHctIo2aHX3+k1nLN5d6FJiJRLviawtq0SjYodgSWyv5ivyEXtFRwqnkP5NmZVpZFI+XYMnyU1kLuWN9CsZcPIBvsEjYq4sFlbZFW1osPkO+NjsK4k4KTT5UiXjVrL8RQewbiPmpFPiyZeVWsXw1A7C0OkEgUJkoEHsG8cohIpb2b4+v81aOzID2DPF8QHdDGIH5aqGMIP4skgUbhF/rS3MZ8qBB7Aun4ITWSzEkUhAarHNSSSAFqspfiRg9gXw3G1Ze0kaVtCsbaSrKuxWNQiNR9i8oWjfxqfqFR3av8gRQO+mSJyGqmxcch2VqLExIdhRUUYQa+xys5ijYg1c5eVZCORrDZF5XAJqBtoD2Bl4jJGwFXWMlMpPE1hLGSN12KtV/QOiM3GnvY0+RNeIxe6kvY2OgaVg33EkIcaIpsbEx3xqKySPyFAaHRL1ysZNZPJypIwDGvGJvcaxeTkkkUFqs3LRg9fyPpNWX9Zvww3rLWP9Jev3ycoyBWTxckkhIU14NN7TWLxckcikrVmnGMDXX2UMKeyjY7IFeHxe2kso18hSrr/oITqjcop1ukkDeXT3biKlv40Oia8Vh9wqPIxudBqRw4/euCQh1V1LOJ9DdY5nKDl0+7bjGay99IkrAGvE5vcaxuQlaVQWNY9y0YJ/eZeQp7FGbZWooRGOn3w1Gazfqt+GK9Zf8AdYz0l6/dKWQispipJZGIWvA5fbVhh5I5AStWMZSNR18jdPao3mK/JRf2FLaRjyFKoHc0j8BumyKB+O6hl5j5HsG6UlCBU1tOZ9gHzqxRlQA9gkbo26bpUC1//8QAHREBAAICAwEBAAAAAAAAAAAAAQARAlASMEBwYP/aAAgBAgEBPwDuYZaFIY/Snbv6xag3oUuBXStQb0KXArx5QdClzj9fv0sx0PGBW0dJ/8QAKBEAAQMCBQMEAwAAAAAAAAAAAQIDBAARBRIxQFAUMDIQE2BxICJw/9oACAEDAQE/AO9LkdO2V1DxUSHMluBlRxIbKDUPCkx3M9/ldxwSGXg+VFX687K9+6fbpu+QX12lwOCktPLWkoVYUgEJAPyuXMRGF1VEnIk+PA4jCMpIArDoCot79mbiSYqrEVDliSjMNmpaU6mg62dFDuz8N6pV71BidMjLs8bdWhIymosl4vIBWdaaN20/XAToIlCxprBEtrCr6UlOVIH9VL7QNisUhxC/E3/MmwJpmUXHVIy6bhzwV9VMfdD6wFnWsDcWsHMewG0JNwNwoXBFO4K24sqvUOCmLpykp5xspyJvTZKkAngSAdR6f//Z 1x, /img/faq/faq@2x.jpg 2x"
+    src="data:image/jpeg;base64,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"
+    alt="decor bg"
+    width="526"
+  />
+
+  <div>
+    <ul class="faq-list">
+      <li class="faq-item">
+        <div class="question-button-div">
+          <h3 class="faq-question">
+            What programming languages are most often used in your project?
+          </h3>
+          <button class="accordion-btn">
+            <svg class="accordion-icon">
+              <use href="/codeCreators-project/assets/icons-LHmDkW2B.svg#down"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="faq-answer">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </li>
+      <li class="faq-item">
+        <div class="question-button-div">
+          <h3 class="faq-question">What are the deadlines for the project?</h3>
+          <button class="accordion-btn">
+            <svg class="accordion-icon">
+              <use href="/codeCreators-project/assets/icons-LHmDkW2B.svg#down"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="faq-answer">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources. Determining exact deadlines is a
+          difficult task, and it usually occurs during the planning phase of the
+          project.
+        </p>
+      </li>
+      <li class="faq-item">
+        <div class="question-button-div">
+          <h3 class="faq-question">What payment methods do you accept?</h3>
+          <button class="accordion-btn">
+            <svg class="accordion-icon">
+              <use href="/codeCreators-project/assets/icons-LHmDkW2B.svg#down"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="faq-answer">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems such as PayPal, as well as
+          payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+        </p>
+      </li>
+      <li class="faq-item">
+        <div class="question-button-div">
+          <h3 class="faq-question">How can I contact you?</h3>
+          <button class="accordion-btn">
+            <svg class="accordion-icon">
+              <use href="/codeCreators-project/assets/icons-LHmDkW2B.svg#down"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="faq-answer">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </li>
+      <li class="faq-item">
+        <div class="question-button-div">
+          <h3 class="faq-question faq-question-alt">
+            Do you provide advice or support?
+          </h3>
+          <button class="accordion-btn">
+            <svg class="accordion-icon">
+              <use href="/codeCreators-project/assets/icons-LHmDkW2B.svg#down"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="faq-answer">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources. Determining exact deadlines is a
+          difficult task, and it usually occurs during the planning phase of the
+          project.
+        </p>
+      </li>
+      <li class="faq-item">
+        <div class="question-button-div">
+          <h3 class="faq-question">
+            What does the process of developing a software product look like
+            from idea to implementation?
+          </h3>
+
+          <button class="accordion-btn">
+            <svg class="accordion-icon">
+              <use href="/codeCreators-project/assets/icons-LHmDkW2B.svg#down"></use>
+            </svg>
+          </button>
+        </div>
+        <p class="faq-answer">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems such as PayPal, as well as
+          payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
 
       <section id="reviews" class="reviews container">
     <div class="container">
