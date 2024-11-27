@@ -19,7 +19,7 @@ import{a as x,i as O,S as D,N as R,K as N,M as V,A as G}from"./assets/vendor-Cih
                     <div class="project-name-btn">
                         <h3 class="project-name">${p}</h3>
                         <div class="centered">
-                                <a href="${w}" class="project-link" target="_blank">VISIT
+                                <a href="${w}" class="project-link" target="_blank" rel="noopener noreferrer">VISIT
                                  <svg class="project-icon" width="24" height="24">
                                         <use href="${ye}#arrow-projects"></use>
                                     </svg>
