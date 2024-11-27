@@ -20,7 +20,7 @@ import{S as J,N as B,K as O,M,a as b,i as D,A as N}from"./assets/vendor-CWC0koRS
                         <h3 class="project-name">${m}</h3>
                         <div class="centered">
                                 <a href="${w}" class="project-link" target="_blank">VISIT
-                                 <svg class="project-icon" width="15" height="15">
+                                 <svg class="project-icon" width="24" height="24">
                                         <use href="${ue}#arrow-projects"></use>
                                     </svg>
                                 </a>
