@@ -43,18 +43,18 @@ async function loadReviewsFromBackend() {
 const createReviewsMarkup = reviews => {
   return reviews
     .map(
-      review => `<li class="reviews-item swiper-slide">
+      review => `<li class="swiper-slide reviews-swiper-slide">
         <p class="reviews-text">${review.review}</p>
-        <div class="reviewer-data">
+        <div class="reviews-author-info">
           <img
             src="${review.avatar_url}"
             alt="${review.author}"
             loading="lazy"
             width="40"
             height="40"
-            class="reviews-foto"
+            class="reviews-img"
           />
-          <p class="reviewer-name">${review.author}</p>
+          <p class="reviews-name">${review.author}</p>
         </div>
       </li>`
     )
@@ -62,7 +62,7 @@ const createReviewsMarkup = reviews => {
 };
 
 const addReviews = async () => {
-  const reviewsListEL = document.querySelector('.reviews-list');
+  const reviewsListEL = document.querySelector('.reviews-swiper-wrapper');
   try {
     const reviews = await loadReviewsFromBackend();
 
