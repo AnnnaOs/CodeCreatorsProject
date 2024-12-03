@@ -1,31 +1,29 @@
-#Team project from the JS module
+# Team project from the JS module
 
-##Team name: Code Creators
+## Team name: Code Creators
 
-##Team:
+## Team:
 
-- [@AnnnaOs] (https://github.com/AnnnaOs) (Team Lead)
-- [@Elcher26] (https://github.com/Elcher26) (Scrum Master, Review)
-- [@doboshdiana404] (https://github.com/doboshdiana404) (Benefits)
-- [@NataliiaShah] (https://github.com/NataliiaShah) (Tech Skills)
-- [@MaksymSelezen] (https://github.com/MaksymSelezen) (FAQ)
-- [@oksanulik] (https://github.com/oksanulik) (About Me)
-- [@ViktoriiaBut] (https://github.com/ViktoriiaBut) (Header)
-- [@andrii-cabbage] (https://github.com/andrii-cabbage) (My Projects)
-- [@heyylikeduard] (https://github.com/heyylikeduard) (Work Together)
-- [@Oksana-Zaluzhna] (https://github.com/Oksana-Zaluzhna) (Hero)
-- [@SakhnevychOlya] (https://github.com/SakhnevychOlya) (Footer)
+- [@AnnnaOs](https://github.com/AnnnaOs) Team Lead
+- [@Elcher26](https://github.com/Elcher26) Scrum Master, Review
+- [@ViktoriiaBut](https://github.com/ViktoriiaBut) Header
+- [@Oksana-Zaluzhna](https://github.com/Oksana-Zaluzhna) Hero
+- [@oksanulik](https://github.com/oksanulik) About Me
+- [@NataliiaShah](https://github.com/NataliiaShah) Tech Skills
+- [@andrii-cabbage](https://github.com/andrii-cabbage) My Projects
+- [@doboshdiana404](https://github.com/doboshdiana404) Benefits
+- [@MaksymSelezen](https://github.com/MaksymSelezen) FAQ
+- [@heyylikeduard](https://github.com/heyylikeduard) Work Together
+- [@SakhnevychOlya](https://github.com/SakhnevychOlya) Footer
 
-##Your Role (Team Lead):
-
-##Technologies:
+## Technologies:
 
 - HTML/CSS
 - JavaScript: promise, LocalStorage, axios, await-async, post/get/patch,
   iziToast, Rest API
 - Used: Vanilla App Template, npm, Git, Figma
 
-##Links:
+## Links:
 
 - [Live Project](https://annnaos.github.io/codeCreators-project/)
 
