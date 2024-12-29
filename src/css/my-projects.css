@@ -14,7 +14,7 @@
   margin-bottom: 40px;
 }
 
-.ighlight {
+.projects-title-light {
   color: var(--title-accent-green-color);
 }
 
@@ -39,6 +39,7 @@
 
 .project-image {
   border-radius: 16px;
+  width: 100%;
 }
 
 .project-tech {

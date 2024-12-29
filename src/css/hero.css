@@ -59,7 +59,6 @@
 .button-ikon {
   fill: var(--hero-btn-hover);
   stroke: var(--hero-btn-hover);
-  /* fill: none; */
 }
 
 .custom-button::after {
@@ -70,15 +69,15 @@
   border-radius: 16px;
   position: absolute;
   top: 0;
-  left: 40%;
+  left: 47%;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: -1;
 }
 
 .custom-button:hover::after {
-  transform: translateX(-69%);
+  transform: translateX(-50%);
   content: '';
-  width: 240px;
+  width: 300px;
   height: 92px;
   background-color: var(--hover-green-color);
   border-radius: 16px;
@@ -208,12 +207,13 @@
     height: 444px;
   }
   .custom-button {
-    margin-left: 72px;
+    /* margin-left: 72px; */
+    padding-left: 72px;
   }
   .custom-button::after {
     content: '';
-    width: 261px;
+    width: 271px;
     height: 96px;
-    left: 31%;
+    left: 40%;
   }
 }
